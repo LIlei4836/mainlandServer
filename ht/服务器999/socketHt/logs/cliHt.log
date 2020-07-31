@@ -1,0 +1,9 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/hlg/ht/服务器999/socketHt/serHt.py", line 54, in <module>
+    server = MyThreadingTCPServer(('0.0.0.0', 999, ), MyServer)
+  File "/usr/local/python3/lib/python3.6/socketserver.py", line 453, in __init__
+    self.server_bind()
+  File "/usr/local/python3/lib/python3.6/socketserver.py", line 467, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
